@@ -1,7 +1,9 @@
-#!/usr/bin/env ruby 
+ # !/usr/bin/env ruby 
 
-require 'pry'
-require_relative '../config/environment'
+#  require_relative '../config/environment'
 
-binding.pry
-"pls"
+#  hash = { :a => 4, :b => 10 }
+#  ap hash
+
+# require the environment file
+#  '../config/environment'

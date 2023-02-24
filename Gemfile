@@ -1,7 +1,16 @@
+# frozen_string_literal: true
+
 source "https://rubygems.org"
 
-gem "sqlite3", "~> 1.4"
+gem "hashie"
+gem "sinatra", "2.0.2"
+gem "octokit", "~> 2.0"
+# gem "awesome_print", git: "git@github.com:awesome-print/awesome_print.git"
+gem "pry", :group => "development"
 
-gem "rspec", "~> 3.10"
+group :test do
+  gem "rspec"
+end
 
-gem "pry", "~> 0.14.1"
+
+# gem "rails"

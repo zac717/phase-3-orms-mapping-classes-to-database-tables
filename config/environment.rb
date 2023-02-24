@@ -1,6 +1,3 @@
-require 'bundler'
-Bundler.require
-
-require_relative '../lib/song'
-
-DB = { conn: SQLite3::Database.new("db/music.db") }
+# Set up Bundler here following the instructions in the README
+require 'bundler/setup'
+Bundler.require(:default, :development)
